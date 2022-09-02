@@ -415,7 +415,7 @@ SavedCocktail.create!(
 
     {
       user_id: User.first.id,
-      cocktail: Cocktail.find_by(name: 'negroni')
+      cocktail: Cocktail.find_by(name: 'espresso martini')
     },
     # For Alvaro
     {
@@ -425,7 +425,7 @@ SavedCocktail.create!(
 
     {
       user_id: User.last.id,
-      cocktail: Cocktail.find_by(name: 'negroni')
+      cocktail: Cocktail.find_by(name: 'espresso martini')
     }
   ]
 )
