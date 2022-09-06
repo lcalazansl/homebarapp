@@ -1,11 +1,11 @@
 .cards {
   display: flex;
   grid-gap: 1rem;
-  align-items: center;
   justify-content: space-between;
-  align-content: center;
+  align-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 // Smallest device
